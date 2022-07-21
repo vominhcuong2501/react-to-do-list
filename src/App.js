@@ -8,6 +8,12 @@ import DemoHookUseReducer from "./React_Hooks/UseReducer/DemoHookUseReducer";
 import DemoHookUseContext from "./React_Hooks/UseContext/DemoHookUseContext";
 import Contextprovider from "./React_Hooks/Context/Contextprovider";
 import DemoReduxApp from "./React_Hooks/BaiTapReduxApp/DemoReduxApp";
+import DemoUseSpring from "./React_Hooks/ReactSpring/DemoUseSpring";
+import Ex2UseSpring from "./React_Hooks/ReactSpring/Ex2UseSpring";
+import Ex3UseSpring from "./React_Hooks/ReactSpring/Ex3UseSpring";
+import Ex4UseTrail from "./React_Hooks/ReactSpring/Ex4UseTrail";
+import Ex5UseTransition from "./React_Hooks/ReactSpring/Ex5UseTransition";
+import Ex6UseChain from "./React_Hooks/ReactSpring/Ex6UseChain";
 
 function App() {
   return (
@@ -20,7 +26,13 @@ function App() {
       {/* <DemoHookUseRef /> */}
       {/* <DemoHookUseReducer /> */}
       {/* <DemoHookUseContext /> */}
-      <DemoReduxApp />
+      {/* <DemoReduxApp /> */}
+      {/* <DemoUseSpring /> */}
+      {/* <Ex2UseSpring /> */}
+      {/* <Ex3UseSpring /> */}
+      {/* <Ex4UseTrail /> */}
+      {/* <Ex5UseTransition /> */}
+      <Ex6UseChain />
     </Contextprovider>
   );
 }

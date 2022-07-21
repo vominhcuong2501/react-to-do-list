@@ -36,7 +36,7 @@ export default function DemoReduxApp(props) {
   return (
     <div className="container">
       <h3>FaKebook App</h3>
-      <div className="card">
+      <div className="card p-5">
         <div className="cart-header">
           {comments.map((item, index) => {
             return (
