@@ -1,0 +1,11 @@
+.active {
+    background-color: #fff;
+    color: black !important;
+    font-weight: bold;
+}
+
+/* cách cũ
+.activeNavItem {
+    background-color: #fff;
+    color: black !important;
+} */

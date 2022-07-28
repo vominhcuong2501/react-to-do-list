@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { connect, useSelector, useDispatch } from "react-redux";
-import { commentAction } from "../../Store/Actions/FacebookAction";
+import { commentAction } from "../../redux/Actions/FacebookAction";
 
 export default function DemoReduxApp(props) {
 

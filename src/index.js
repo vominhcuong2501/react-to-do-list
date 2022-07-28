@@ -9,7 +9,7 @@ import "bootstrap/dist/js/bootstrap.bundle.js"
 
 // redux
 import { Provider } from 'react-redux';
-import { store } from './Store/Config';
+import { store } from './redux/Config';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
