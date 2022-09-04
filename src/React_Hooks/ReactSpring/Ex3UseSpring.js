@@ -43,7 +43,7 @@ export default function Ex3UseSpring() {
       {propsAnimationUseSpring.map((propsAnim, index) => {
         return (
           // khi render mỗigiá trị thì ứng với mỗi animation
-          <div>
+          <div key={index}>
             {/* <animated.span key={index} style={propsAnim}>
               {propsAnim.num}
             </animated.span>

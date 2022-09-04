@@ -31,7 +31,7 @@ export default function Ex4UseTrail() {
     opacity: status ? 1 : 0,
     x: status ? 0 : 20,
     height: status ? 80 : 0,
-    color: "red",
+    color: "pink",
     from: {
       opacity: 0,
       x: 20,

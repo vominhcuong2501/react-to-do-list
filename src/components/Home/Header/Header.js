@@ -61,6 +61,27 @@ export default function Header() {
                 Login
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink
+                // activeStyle = {{fontWeight: 'bold'}}
+                // activeClassname="activeNavItem display-4"
+                className="nav-link"
+                to="/demoDragDrop"
+              >
+                DragDrop
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                // activeStyle = {{fontWeight: 'bold'}}
+                // activeClassname="activeNavItem display-4"
+                className="nav-link"
+                to="/DragAndDropDnD"
+              >
+                DragAndDropDnD
+              </NavLink>
+            </li>
+            
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"

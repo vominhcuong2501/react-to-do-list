@@ -1,7 +1,6 @@
 import { combineReducers, createStore, compose, applyMiddleware } from "redux";
 import * as reducers from "./Reducer";
 
-// redux saga
 import reduxThunk from "redux-thunk";
 
 // middleware saga

@@ -3,8 +3,11 @@ import { useSpring, animated } from "react-spring";
 
 export default function DemoUseSpring(props) {
   const propsAnim = useSpring({
+    // đến
     color_text: "red",
+    // từ
     from: { color_text: "green" },
+    // khoảng thời
     config: { duration: 1000 },
   });
 

@@ -5,8 +5,10 @@ export default function Ex2UseSpring(props) {
   // thay dổi màu
   let { color, ...propsUseSpring } = useSpring({
     color: [151, 255, 255], // màu sắc sau animation
+    fontSize: "20px",
     from: {
       color: [238, 99, 99], // màu sắc bắt đầu
+      fontSize: "50px"
     },
     config: {
       duration: 2000,

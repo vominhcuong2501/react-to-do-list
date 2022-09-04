@@ -1,7 +1,7 @@
 // import DemoHookUseState from "./React_Hooks/UseState/DemoHookUseState";
 // import DemoHookUseEffect from "./React_Hooks/UseEffect/DemoHookUseEffect";
 // import DemoHookUseCallback from "./React_Hooks/UseCallBack/DemoHookUseCallback";
-import DemoHookUseMemo from "./React_Hooks/UseMemo/DemoHookUseMemo";
+// import DemoHookUseMemo from "./React_Hooks/UseMemo/DemoHookUseMemo";
 // import DemoHookUseRef from "./React_Hooks/UseRef/DemoHookUseRef";
 // import DemoHookUseReducer from "./React_Hooks/UseReducer/DemoHookUseReducer";
 // import DemoHookUseContext from "./React_Hooks/UseContext/DemoHookUseContext";
@@ -24,6 +24,8 @@ import TodoListRFC from "./pages/TodoList/todolist-RFC";
 import ToDoListRedux from "./pages/TodoList/ToDoListRedux";
 import BaiTapToDoListSaga from "./pages/BaiTapToDoListSaga/BaiTapToDoListSaga";
 import Loading from "./components/GlobalSetting/LoadingComponent/Loading";
+import DemoDragdrop from "./pages/demo-dragdrop/demo-dragdrop";
+import DragAndDropDnD from "./pages/DragAndDropDnD/DragAndDropDnD";
 
 function App() {
   return (
@@ -40,6 +42,10 @@ function App() {
         <Route path="/todolistrfc" element={<TodoListRFC />} />
         <Route path="/todolistredux" element={<ToDoListRedux />} />
         <Route path="/todolistsaga" element={<BaiTapToDoListSaga />} />
+        <Route path="/demoDragDrop" element={<DemoDragdrop />} />
+        <Route path="/DragAndDropDnD" element={<DragAndDropDnD />} />
+
+
 
       </Routes>
       {/* <Contextprovider className="App"> */}
